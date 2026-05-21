@@ -1,0 +1,79 @@
+{
+  "name": "Mitron Bank Professional",
+  "dataColors": [
+    "#C9A84C",
+    "#4A90D9",
+    "#2ECC9A",
+    "#E8623A",
+    "#9B59B6",
+    "#E74C3C",
+    "#1ABC9C",
+    "#F39C12"
+  ],
+  "background": "#0A1628",
+  "foreground": "#112240",
+  "tableAccent": "#C9A84C",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "fontFamily": [{ "value": "Segoe UI" }],
+        "fontSize": [{ "value": 11 }],
+        "color": [{ "value": "#FFFFFF" }],
+        "background": [{ "color": { "solid": { "color": "#112240" } } }]
+      }
+    },
+    "card": {
+      "*": {
+        "calloutValue": [{
+          "fontSize": { "value": 28 },
+          "fontBold": { "value": true },
+          "color": { "solid": { "color": "#C9A84C" } }
+        }],
+        "label": [{
+          "color": { "solid": { "color": "#A8B2C1" } },
+          "fontSize": { "value": 11 }
+        }],
+        "background": [{
+          "color": { "solid": { "color": "#112240" } },
+          "transparency": { "value": 0 }
+        }]
+      }
+    },
+    "barChart": {
+      "*": {
+        "dataPoint": [{
+          "defaultColor": { "solid": { "color": "#C9A84C" } }
+        }],
+        "categoryAxis": [{
+          "labelColor": { "solid": { "color": "#A8B2C1" } }
+        }],
+        "valueAxis": [{
+          "labelColor": { "solid": { "color": "#A8B2C1" } },
+          "gridlineColor": { "solid": { "color": "#1E3A5F" } }
+        }]
+      }
+    },
+    "donutChart": {
+      "*": {
+        "legend": [{
+          "labelColor": { "solid": { "color": "#FFFFFF" } }
+        }]
+      }
+    },
+    "lineChart": {
+      "*": {
+        "line": [{
+          "strokeWidth": { "value": 3 },
+          "defaultColor": { "solid": { "color": "#2ECC9A" } }
+        }],
+        "categoryAxis": [{
+          "labelColor": { "solid": { "color": "#A8B2C1" } }
+        }],
+        "valueAxis": [{
+          "labelColor": { "solid": { "color": "#A8B2C1" } },
+          "gridlineColor": { "solid": { "color": "#1E3A5F" } }
+        }]
+      }
+    }
+  }
+}
